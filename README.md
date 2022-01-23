@@ -12,15 +12,16 @@
 Update *project/server/config.py*, and then run:
 
 ```sh
-$ export FLASK_APP=project.server
-$ export APP_SETTINGS="project.server.config.DevelopmentConfig"
+> $env:FLASK_APP = "project.server" 
+> $env:APP_SETTINGS = "project.server.config.DevelopmentConfig" 
+> $env:FLASK_ENV = "development"
 ```
 
 or
 
 ```sh
-$ export FLASK_APP=project.server
-$ export APP_SETTINGS="project.server.config.ProductionConfig"
+> $env:FLASK_APP = "project.server" 
+> $env:APP_SETTINGS = "project.server.config.ProductionConfig" 
 ```
 
 Create the tables and run the migrations:
