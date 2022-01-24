@@ -1,0 +1,7 @@
+Attributions:
+https://flask.palletsprojects.com/en/1.1.x/cli/#cli (powershell commands for setting env variables)
+https://stackoverflow.com/a/67349719/10858792 (install pycryptodome library resource)
+https://pyjwt.readthedocs.io/en/latest/ (jwt decode debugging resource)
+
+
+

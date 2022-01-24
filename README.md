@@ -27,15 +27,15 @@ or
 Create the tables and run the migrations:
 
 ```sh
-$ flask db init
-$ flask db migrate
-$ flask db upgrade
+> flask db init
+> flask db migrate
+> flask db upgrade
 ```
 
 ### Run the Application
 
 ```sh
-$ flask run
+> flask run
 ```
 
 So access the application at the address [http://localhost:5000/](http://localhost:5000/)
