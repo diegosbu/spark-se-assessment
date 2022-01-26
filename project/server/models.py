@@ -49,6 +49,7 @@ class User(db.Model):
         :return: integer|string
         """
         try:
+            # Added in algorithms parameter
             payload = jwt.decode(auth_token, app.config.get('SECRET_KEY'), algorithms=["HS256"])
             return payload['sub']
         except jwt.ExpiredSignatureError:
