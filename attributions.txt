@@ -3,6 +3,8 @@ https://flask.palletsprojects.com/en/1.1.x/cli/#cli (powershell commands for set
 https://stackoverflow.com/a/67349719/10858792 (install pycryptodome instead of pycrypto library resource)
 https://pyjwt.readthedocs.io/en/latest/ (jwt decode debugging resource)
 https://flask-sqlalchemy.palletsprojects.com/en/2.x/queries/#querying-records (resource for query.all() method used)
+https://docs.gunicorn.org/en/stable/run.html (heroku procfile, 1st line dotted path resource)
+https://stackoverflow.com/questions/12906351/importerror-no-module-named-psycopg2 (install psycopg2-binary resource)
 
 
 
